@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+models/
+data/
+artifacts/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local development notes; public documentation lives in README.md.
+docs/progress.md
+docs/validation.md
+docs/superpowers/
+
+# Machine-specific settings and credentials.
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

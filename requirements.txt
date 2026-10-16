@@ -1,0 +1,12 @@
+# Direct dependencies pinned to the validated Windows / Python 3.12 environment.
+numpy==1.26.4
+# MediaPipe requires contrib; Ultralytics requires the standard distribution.
+# Both expose cv2, so keep their versions aligned in a dedicated virtualenv.
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
+pygame-ce==2.5.7
+mediapipe==0.10.32
+ultralytics==8.3.59
+# For CPU-only wheels, install these first as described in README.md.
+torch==2.7.0
+torchvision==0.22.0
